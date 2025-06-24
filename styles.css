@@ -1,0 +1,197 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.user{
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.search input {
+  padding: 0 12px;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.search i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50px;
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  font-size: 1.1rem;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search i:hover {
+  background: #e5e5e5;
+}
+
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1240px;
+}
+
+h1 {
+  padding: 0;
+}
+
+span {
+  cursor: pointer;
+}
+
+.subscribe {
+  background-color: rgb(223, 223, 223);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+.subscribe:hover {
+  background-color: red;
+  color: white;
+}
+
+.like {
+  cursor: pointer;
+  background-color: rgb(223, 223, 223);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.share {
+  background-color: rgb(223, 223, 223);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.download {
+  background-color: rgb(223, 223, 223);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.more {
+  background-color: rgb(223, 223, 223);
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.main-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  div {
+    line-height: 0;
+    align-items: center;
+  }
+}
+
+main {
+  position: relative;
+}
+
+.main-container {
+  position: absolute;
+  top: 20px;
+  left: 74px;
+}
+
+.description {
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user {
+  align-items: center;
+  gap: 30px;
+}
+
+.user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.videos {
+  position: absolute;
+  top: 20px;
+  left: calc(74px + 1250px + 40px); /* mais à direita (adicionado +40px) */
+  width: 350px; /* largura um pouco maior */
+}
+
+.tumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* espaço menor entre os vídeos */
+}
+
+.thumb {
+  display: flex;
+  gap: 6px; /* espaço menor entre imagem e texto */
+  align-items: center;
+  cursor: pointer;
+}
+
+.thumb img {
+  width: 180px; /* aumentei a largura */
+  height: 100px; /* aumentei a altura */
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  max-height: 100px;
+}
+
+.video-title {
+  font-size: 0.88rem;
+  font-weight: bold;
+}
+
+.video-details {
+  font-size: 0.75rem;
+  color: #666;
+}
